@@ -6,47 +6,51 @@
     <link rel="stylesheet" href="src/stylesheet.css" />
     <title>AI Recipe generator</title>
   </head>
-  <body>
-    <header>
-      <h1>AI Recipe Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Please enter the topic of the recipe"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The recipe will go
-        <br />
-        Ingredients
-      </div>
-    </main>
 
-    <footer>
-      This AI project was coded with ❤️ by
-      <a href="https://github.com/AlexandraVcodes/" target="_blank"
-        >Alexandra Vukits</a
-      >
-      and is
-      <a
-        href="https://github.com/AlexandraVcodes/recipe-generator"
-        target="_blank"
-      >
-        open-sourced on GitHub</a
-      >
-      and is
-      <a
-        href="https://app.netlify.com/sites/fresh-recipe-generator"
-        target="_blank"
-        >hosted on Netlify.</a
-      >
-    </footer>
+  <body>
+    <div class="container">
+      <header>
+        <h1>AI Recipe Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Please enter the topic of the recipe"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="recipe">
+          The recipe will go
+          <br />
+          Ingredients
+        </div>
+      </main>
+
+      <footer>
+        This AI project was coded with ❤️ by
+        <a href="https://github.com/AlexandraVcodes/" target="_blank"
+          >Alexandra Vukits</a
+        >
+        and is
+        <a
+          href="https://github.com/AlexandraVcodes/recipe-generator"
+          target="_blank"
+        >
+          open-sourced on GitHub</a
+        >
+        and is
+        <a
+          href="https://app.netlify.com/sites/fresh-recipe-generator"
+          target="_blank"
+          >hosted on Netlify.</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
